@@ -1,0 +1,4 @@
+resource "aws_iam_user" "demo" {
+  count = 3
+  name = "tuckerdemo"
+}
